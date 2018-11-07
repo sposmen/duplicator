@@ -1,6 +1,6 @@
 {
   "name": "duplicator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TCP proxy that also duplicates traffic to a secondary host",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "Isaac Wolkerstorfer <i@agnoster.net> (http://agnoster.net/)",
   "license": "MIT",
   "dependencies": {
-    "bufferedstream": "^3.1.0",
+    "bufferedstream": "^3.1.1",
     "colors": "0.6.0-1",
     "optimist": "~0.3.5"
   },

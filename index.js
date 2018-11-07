@@ -95,7 +95,7 @@ function duplicator(cb) {
           console.error(ERR_MSG.FWD_CONN_ERROR, err)
           client.end()
         }
-        buffer.end()
+        if(!buffer.ended) buffer.end()
         return
       }
       if (forwardResponse) connection.pipe(client)
